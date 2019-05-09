@@ -5,6 +5,11 @@
 
 bool isPrime(const unsigned long num)
 {
+    if (num == 1)
+    {
+        return false;
+    }
+
     if (num == 2 || num == 3)
     {
         return true;
